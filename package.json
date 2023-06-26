@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -23,5 +22,12 @@
     "mongoose": "^7.0.2",
     "nodemon": "^2.0.22"
   },
-  "repository": "https://github.com/ShahidHameed4/vercelDeployment.git"
+  "repository": "https://github.com/ShahidHameed4/vercelDeployment.git",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
